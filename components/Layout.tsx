@@ -44,7 +44,7 @@ export default function Layout(props: any) {
   const meta = {
     title: 'Caleb Benjamin – Developer, writer, creator.',
     description: `Front-end developer, JavaScript enthusiast, and Technical Writer.`,
-    image: 'https://leerob.io/static/images/lee-banner.png',
+    image: 'https://res.cloudinary.com/calebbenjin/image/upload/v1671694822/caleb-banner_veskpw.png',
     type: 'website',
     ...customMeta
   };
