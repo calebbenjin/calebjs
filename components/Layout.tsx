@@ -70,6 +70,53 @@ export default function Layout(props: any) {
         {meta.date && (
           <meta property="article:published_time" content={meta.date} />
         )}
+
+        {/*<!-- Google / Search Engine Tags -->*/}
+        <meta itemProp="name" content={meta.title} />
+        <meta itemProp="description" content={meta.description} />
+        <meta itemProp="image" content={meta.image}  />
+
+        <link href="/static/favicons/favicon.ico" rel="shortcut icon" />
+        <link href="/static/favicons/site.webmanifest" rel="manifest" />
+        <link
+          href="/static/favicons/apple-touch-icon.png"
+          rel="apple-touch-icon"
+          sizes="180x180"
+        />
+        <link
+          href="/static/favicons/favicon-32x32.png"
+          rel="icon"
+          sizes="32x32"
+          type="image/png"
+        />
+        <link
+          href="/static/favicons/favicon-16x16.png"
+          rel="icon"
+          sizes="16x16"
+          type="image/png"
+        />
+        <link
+          color="#4a9885"
+          href="/static/favicons/safari-pinned-tab.svg"
+          rel="mask-icon"
+        />
+        <meta content="#ffffff" name="theme-color" />
+        <meta content="#ffffff" name="msapplication-TileColor" />
+        <meta
+          content="/static/favicons/browserconfig.xml"
+          name="msapplication-config"
+        />
+        <meta content="14d2e73487fa6c71" name="yandex-verification" />
+        <meta
+          content="eZSdmzAXlLkKhNJzfgwDqWORghxnJ8qR9_CHdAh5-xw"
+          name="google-site-verification"
+        />
+
+        <link rel="shortcut icon" href="/public/favicon.ico" />
+        <link rel="icon" href="/favicon.ico" />
+        <meta name="description" content={meta.description} />
+
+
       </Head>
       <div className="flex flex-col justify-center px-8">
         <nav className="flex items-center justify-between w-full relative max-w-4xl border-gray-200 dark:border-gray-700 mx-auto pt-8 pb-8 sm:pb-16  text-gray-900 bg-gray-50  dark:bg-gray-900 bg-opacity-60 dark:text-gray-100">
