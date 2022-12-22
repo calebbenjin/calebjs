@@ -42,8 +42,8 @@ export default function Layout(props: any) {
   const { children, ...customMeta } = props;
   const router = useRouter();
   const meta = {
-    title: 'Caleb Benjamin – Developer, writer, creator.',
-    description: `Front-end developer, JavaScript enthusiast, and Technical Writer.`,
+    title: 'Caleb Benjamin – Software Developer, Writer, Content creator.',
+    description: `Front-end developer, JavaScript enthusiast, and Technical Writer, Content creator`,
     image: 'https://res.cloudinary.com/calebbenjin/image/upload/v1671694822/caleb-banner_veskpw.png',
     type: 'website',
     ...customMeta
