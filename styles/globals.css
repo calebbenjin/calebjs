@@ -218,3 +218,14 @@ table {
 .profile-bg {
   background: red;
 }
+
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 10px;
+  z-index: 99;
+  background-image: linear-gradient(to right, #FFA100, #FCA5A5, #9333EA);
+  transform-origin: 0%;
+}

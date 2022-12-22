@@ -44,7 +44,7 @@ export default function Layout(props: any) {
   const meta = {
     title: 'Caleb Benjamin – Software Developer, Writer, Content creator.',
     description: `Front-end developer, JavaScript enthusiast, and Technical Writer, Content creator`,
-    image: 'https://res.cloudinary.com/calebbenjin/image/upload/v1671694822/caleb-banner_veskpw.png',
+    image: 'https://res.cloudinary.com/calebbenjin/image/upload/v1671711888/caleb-banner1_rnzof8.png',
     type: 'website',
     ...customMeta
   };
@@ -55,8 +55,8 @@ export default function Layout(props: any) {
         <title>{meta.title}</title>
         <meta name="robots" content="follow, index" />
         <meta content={meta.description} name="description" />
-        <meta property="og:url" content={`https://calebjs.dev${router.asPath}`} />
-        <link rel="canonical" href={`https://calebjs.dev${router.asPath}`} />
+        <meta property="og:url" content={`https://calebjs.vercel.app${router.asPath}`} />
+        <link rel="canonical" href={`https://calebjs.vercel.app${router.asPath}`} />
         <meta property="og:type" content={meta.type} />
         <meta property="og:site_name" content="Caleb Benjamin" />
         <meta property="og:description" content={meta.description} />

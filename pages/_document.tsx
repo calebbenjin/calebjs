@@ -49,7 +49,7 @@ export default function Document() {
           <meta itemProp="description" content="Front-end developer, JavaScript enthusiast, and Technical Writer, Content creator." />
           <meta
             itemProp="image"
-            content="https://res.cloudinary.com/calebbenjin/image/upload/v1671694822/caleb-banner_veskpw.png"
+            content="https://res.cloudinary.com/calebbenjin/image/upload/v1671711888/caleb-banner1_rnzof8.png"
           />
 
           {/*<!-- Facebook Meta Tags -->*/}
@@ -57,9 +57,9 @@ export default function Document() {
           <meta property="og:description" content="Front-end developer, JavaScript enthusiast, and Technical Writer, Content creator." />
           <meta
             property="og:image"
-            content="https://res.cloudinary.com/calebbenjin/image/upload/v1671694822/caleb-banner_veskpw.png"
+            content="https://res.cloudinary.com/calebbenjin/image/upload/v1671711888/caleb-banner1_rnzof8.png"
           />
-          <meta property="og:url" content="https://calebbenjin.vercel.app/" />
+          <meta property="og:url" content="https://calebjs.vercel.app/" />
           <meta property="og:type" content="website" />
 
           {/*<!-- Twitter Meta Tags -->*/}
@@ -67,13 +67,13 @@ export default function Document() {
           <meta name="twitter:description" content="Front-end developer, JavaScript enthusiast, and Technical Writer." />
           <meta
             name="twitter:image"
-            content="https://res.cloudinary.com/calebbenjin/image/upload/v1671694822/caleb-banner_veskpw.png"
+            content="https://res.cloudinary.com/calebbenjin/image/upload/v1671711888/caleb-banner1_rnzof8.png"
           />
           <meta name="twitter:card" content="summary_large_image" />
 
           <meta
             property="og:image"
-            content="https://res.cloudinary.com/calebbenjin/image/upload/v1671694822/caleb-banner_veskpw.png"
+            content="https://res.cloudinary.com/calebbenjin/image/upload/v1671711888/caleb-banner1_rnzof8.png"
           ></meta>
       </Head>
       <body>
