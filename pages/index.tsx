@@ -23,10 +23,10 @@ export default function Home() {
           <div className="flex flex-col justify-center items-start max-w-4xl border-gray-200 dark:border-gray-700 mx-auto pb-16">
             <div className="flex flex-col-reverse sm:flex-row items-start">
               <div className="flex flex-col pr-8">
-                <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-1 text-black dark:text-white">
+                <h1 className="font-bold text-2xl md:text-6xl tracking-tight mb-1 text-black dark:text-white">
                   Caleb Benjamin
                 </h1>
-                <h2 className="text-gray-700 text-2xl dark:text-gray-200 mb-4 mt-4">
+                <h2 className="text-gray-700 text-3xl md:text-2xl dark:text-gray-200 mb-4 mt-4">
                   Frontend Developer / Mentor at{' '}
                   <span className="font-semibold">Stutern</span>
                 </h2>
@@ -40,10 +40,10 @@ export default function Home() {
                   alt="Caleb Benjamin"
                   height={176}
                   width={176}
-                  src="/avatar.jpg"
+                  src="/avatar.png"
                   sizes="30vw"
                   priority
-                  className="rounded-full filter grayscale"
+                  className="rounded-full filter grayscale profile-bg"
                 />
               </div>
             </div>
