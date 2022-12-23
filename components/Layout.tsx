@@ -119,7 +119,7 @@ export default function Layout(props: any) {
 
       </Head>
       <div className="flex flex-col justify-center px-8">
-        <nav className="flex items-center justify-between w-full relative max-w-4xl border-gray-200 dark:border-gray-700 mx-auto pt-8 pb-8 sm:pb-16  text-gray-900 bg-gray-50  dark:bg-gray-900 bg-opacity-60 dark:text-gray-100">
+        <nav className="flex items-center justify-between w-full relative max-w-3xl border-gray-200 dark:border-gray-700 mx-auto pt-8 pb-8 sm:pb-16  text-gray-900 bg-gray-50  dark:bg-gray-900 bg-opacity-60 dark:text-gray-100">
           <a href="#skip" className="skip-nav">
             Skip to content
           </a>
@@ -131,6 +131,8 @@ export default function Layout(props: any) {
             <NavItem href="/blog" text="Blog" />
             <NavItem href="/about" text="About" />
             <NavItem href="/snippets" text="CodeSnippets" />
+            <NavItem href="/notes" text="My Notes" />
+            <NavItem href="/projects" text="Projects" />
           </div>
           <button
             aria-label="Toggle Dark Mode"

@@ -229,3 +229,29 @@ table {
   background-image: linear-gradient(to right, #FFA100, #FCA5A5, #9333EA);
   transform-origin: 0%;
 }
+
+.card-btn-view {
+  font-size: 0.7rem;
+  background: #fafafa;
+  border: solid 1px #cccc;
+  text-align: center;
+  padding: 6px 15px;
+  transition: all 0.5s linear;
+}
+.card-btn-github {
+  font-size: 0.7rem;
+  background: #fafafa;
+  border: solid 1px #cccc;
+  text-align: center;
+  padding: 6px 15px;
+  transition: all 0.2s linear;
+}
+
+.card-btn-github:hover {
+  background: #333;
+  color: #fff;
+}
+.card-btn-view:hover {
+  background: #333;
+  color: #fff;
+}
