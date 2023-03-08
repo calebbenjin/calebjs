@@ -232,6 +232,7 @@ table {
 
 .card-btn-view {
   font-size: 0.7rem;
+  width: 100%;
   background: #fafafa;
   border: solid 1px #cccc;
   text-align: center;
@@ -240,6 +241,7 @@ table {
 }
 .card-btn-github {
   font-size: 0.7rem;
+  width: 100%;
   background: #fafafa;
   border: solid 1px #cccc;
   text-align: center;

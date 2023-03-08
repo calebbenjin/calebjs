@@ -119,7 +119,7 @@ export default function Layout(props: any) {
 
       </Head>
       <div className="flex flex-col justify-center px-8">
-        <nav className="flex items-center justify-between w-full relative max-w-3xl border-gray-200 dark:border-gray-700 mx-auto pt-8 pb-8 sm:pb-16  text-gray-900 bg-gray-50  dark:bg-gray-900 bg-opacity-60 dark:text-gray-100">
+        <nav className="flex items-center justify-between w-full relative max-w-4xl border-gray-200 dark:border-gray-700 mx-auto pt-8 pb-8 sm:pb-16  text-gray-900 bg-gray-50  dark:bg-gray-900 bg-opacity-60 dark:text-gray-100">
           <a href="#skip" className="skip-nav">
             Skip to content
           </a>
@@ -139,7 +139,7 @@ export default function Layout(props: any) {
             type="button"
             className="w-9 h-9 bg-gray-200 rounded-lg dark:bg-gray-600 flex items-center justify-center  hover:ring-2 ring-gray-300  transition-all"
             onClick={() =>
-              setTheme(resolvedTheme === 'dark' ? 'light' : 'dark')
+              setTheme(resolvedTheme === 'light' ? 'dark' : 'light')
             }
           >
             {mounted && (
