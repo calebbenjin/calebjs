@@ -76,30 +76,6 @@ export default function Home() {
                   siteUrl={project?.siteLink}
                 />
               ))}
-              {/* <ProjectCard
-                title='Eachblock - A creative design Agency website.'
-                slug='style-guides-component-libraries-design-systems'
-                gradient='from-[#D8B4FE] to-[#818CF8]'
-                src='/projectimg.png'
-                codeUrl='/'
-                siteUrl='/'
-              />
-              <ProjectCard
-                title='CapitalRollup -  A crypto indexes web app that helps users invest in stable coing USDT'
-                slug='style-guides-component-libraries-design-systems'
-                gradient='from-[#6EE7B7] via-[#3B82F6] to-[#9333EA]'
-                src='/projectimg2.png'
-                codeUrl='/'
-                siteUrl='/'
-              />
-              <ProjectCard
-                title='Everything I Know About Style Guides, Design Systems, and Component Libraries'
-                slug='style-guides-component-libraries-design-systems'
-                gradient='from-[#FDE68A] via-[#FCA5A5] to-[#FECACA]'
-                src='/projectimg3.png'
-                codeUrl='/'
-                siteUrl='/'
-              /> */}
             </div>
             <Link
               href='/projects'
