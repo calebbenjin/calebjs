@@ -7,6 +7,12 @@ import Layout from '../components/Layout'
 import BlogPostCard from '../components/BlogPostCard'
 import ProjectCard from '../components/ProjectCard'
 import { featuredProjects } from '../lib/projectData'
+import {
+  BsGithub,
+  BsTwitter,
+  BsCalendar3,
+  BsBoxArrowInUpRight,
+} from 'react-icons/bs'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -31,13 +37,29 @@ export default function Home() {
                   I&apos;m Caleb Benjamin
                 </h1>
                 <h2 className='text-gray-700 text-2xl dark:text-gray-200 mb-4 mt-4'>
-                  A Frontend Engineer
+                  Frontend Engineer
                 </h2>
-                <p className='text-gray-600 sm:text-lg text-md dark:text-gray-400 mb-16'>
+                <p className='text-gray-600 sm:text-lg text-md dark:text-gray-400 mb-6'>
                   I helped Easeplan.io and PayForeign.com upgrade to PWA,
                   increase their website security and performance by 60%,
                   leading to more revenue. I can help your business do the same.
                 </p>
+                <Link
+                  href='https://calendly.com/calebbenjin/30minwithcaleb'
+                  className='text-gray-600 no-underline mr-1 sm:mr-4'>
+                  <button
+                    style={{
+                      border: ` solid 1px #ccc`,
+                      textDecoration: `none`,
+                    }}
+                    className='flex items-center justify-space-between rounded-md py-3 px-2 sm:px-4'>
+                    <BsCalendar3 className='sm:mr-4 mr-1 sm:text-2xl text-sm' />
+                    <span className='sm:mr-6 mr-2 sm:text-lg text-sm'>
+                      Schedule a call 
+                    </span>
+                    <BsBoxArrowInUpRight className='text-sm' />
+                  </button>
+                </Link>
                 {/* <p className='text-gray-600 dark:text-gray-400 mb-16'>
                   I am a self driven enthusiastic ReactJS Expert with a touch of
                   NodeJS. I helped Easeplan.io and PayForeign.com upgrade to
@@ -105,18 +127,18 @@ export default function Home() {
             </h3>
             <div className='flex gap-6 flex-col md:flex-row'>
               <BlogPostCard
-                title='Everything I Know About Style Guides, Design Systems, and Component Libraries'
-                slug='style-guides-component-libraries-design-systems'
+                title='5 reasons why you need to start writing Test-driven development (TDD)'
+                slug='https://calebbenjin.hashnode.dev/5-reasons-why-you-need-to-start-writing-test-driven-development-tdd'
                 gradient='from-[#D8B4FE] to-[#818CF8]'
               />
               <BlogPostCard
-                title='Rust Is The Future of JavaScript Infrastructure'
-                slug='rust'
+                title='HTTP-Only Cookies Authentication with Next.js'
+                slug='https://calebbenjin.hashnode.dev/http-only-cookies-authentication-with-nextjs'
                 gradient='from-[#6EE7B7] via-[#3B82F6] to-[#9333EA]'
               />
               <BlogPostCard
-                title='Past, Present, and Future of React State Management'
-                slug='react-state-management'
+                title="10 Advance React Do's and Don'ts"
+                slug='https://calebbenjin.hashnode.dev/10-advance-react-dos-and-donts'
                 gradient='from-[#FDE68A] via-[#FCA5A5] to-[#FECACA]'
               />
             </div>

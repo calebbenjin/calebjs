@@ -58,7 +58,7 @@ export default function BlogPage(){
         💡Blog
       </h1>
       <p className="mb-4 text-gray-600 dark:text-gray-400">
-        {`I've been writing online since 2014, mostly about web development and tech careers.
+        {`I've been writing online since 2021, mostly about web development and tech careers.
           In total, I've written articles on my blog.
           Use the search below to filter by title.`}
       </p>
@@ -90,7 +90,7 @@ export default function BlogPage(){
           <h3 className="mt-8 mb-4 text-2xl font-bold tracking-tight text-black md:text-4xl dark:text-white">
             Most Popular
           </h3>
-          <BlogPost
+          {/* <BlogPost
             title="Rust Is The Future of JavaScript Infrastructure"
             excerpt="Why is Rust being used to replace parts of the JavaScript web ecosystem like minification (Terser), transpilation (Babel), formatting (Prettier), bundling (webpack), linting (ESLint), and more?"
             slug="rust"
@@ -104,10 +104,10 @@ export default function BlogPage(){
             title="Building a Design System Monorepo with Turborepo"
             excerpt="Manage multiple packages with a shared build, test, and release process using Turborepo, Changesets, Storybook, and more."
             slug="turborepo-design-system-monorepo"
-          />
+          /> */}
         </>
       )}
-      <Suspense fallback={null}>
+      {/* <Suspense fallback={null}>
         <h3 className="mt-8 mb-4 text-2xl font-bold tracking-tight text-black md:text-4xl dark:text-white">
           All Posts
         </h3>
@@ -124,7 +124,7 @@ export default function BlogPage(){
             excerpt={post.excerpt}
           />
         ))}
-      </Suspense>
+      </Suspense> */}
     </div>
   </Layout>
 }
