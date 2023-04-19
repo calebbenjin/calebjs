@@ -20,10 +20,10 @@ const ExternalLink = ({ href, children }: LinkProps) => (
 
 export default function Footer() {
   return (
-    <footer className="flex flex-col justify-center items-start max-w-4xl mx-auto w-full mt-20 mb-8">
+    <footer className="flex flex-col justify-center items-center bg-white sm:w-9/12 w-full  mx-auto sm:shadow-sm dark:bg-gray-900">
       <hr className="w-full border-1 border-gray-200 dark:border-gray-800 mb-8" />
       {/* <NowPlaying /> */}
-      <div className="w-full max-w-2xl grid grid-cols-1 gap-4 pb-16 sm:grid-cols-3">
+      <div className="w-full max-w-2xl mx-auto grid grid-cols-3 px-6 gap-4 pb-16 sm:grid-cols-3">
         <div className="flex flex-col space-y-4">
           <Link
             href="/"

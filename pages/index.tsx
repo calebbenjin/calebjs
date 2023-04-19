@@ -13,6 +13,8 @@ import {
   BsCalendar3,
   BsBoxArrowInUpRight,
 } from 'react-icons/bs'
+import HeroSection from '../components/HeroSection'
+import SlideSection from '../components/SlideSection'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -30,58 +32,9 @@ export default function Home() {
       </Head>
       <Suspense fallback={null}>
         <Layout>
-          <div className='flex flex-col justify-center items-start max-w-4xl border-gray-200 dark:border-gray-700 mx-auto sm:pb-16 pb-4'>
-            <div className='flex flex-col-reverse sm:mt-10 sm:flex-row items-start'>
-              <div className='flex flex-col pr-8'>
-                <h1 className='font-bold text-3xl sm:text-5xl tracking-tight mb-1 text-black dark:text-white'>
-                  I&apos;m Caleb Benjamin
-                </h1>
-                <h2 className='text-gray-700 text-2xl dark:text-gray-200 mb-4 mt-4'>
-                  Frontend Engineer
-                </h2>
-                <p className='text-gray-600 sm:text-lg text-md dark:text-gray-400 mb-6'>
-                  I helped Easeplan.io and PayForeign.com upgrade to PWA,
-                  increase their website security and performance by 60%,
-                  leading to more revenue. I can help your business do the same.
-                </p>
-                <Link
-                  href='https://calendly.com/calebbenjin/30minwithcaleb'
-                  className='text-gray-600 no-underline mr-1 sm:mr-4'>
-                  <button
-                    style={{
-                      border: ` solid 1px #ccc`,
-                      textDecoration: `none`,
-                    }}
-                    className='flex items-center justify-space-between rounded-md py-3 px-2 sm:px-4'>
-                    <BsCalendar3 className='sm:mr-4 mr-1 sm:text-2xl text-sm' />
-                    <span className='sm:mr-6 mr-2 sm:text-lg text-sm'>
-                      Schedule a call 
-                    </span>
-                    <BsBoxArrowInUpRight className='text-sm' />
-                  </button>
-                </Link>
-                {/* <p className='text-gray-600 dark:text-gray-400 mb-16'>
-                  I am a self driven enthusiastic ReactJS Expert with a touch of
-                  NodeJS. I helped Easeplan.io and PayForeign.com upgrade to
-                  PWA. I increase their website security and performance by 60%,
-                  leading to more revenue. I can help your business do the same.
-                </p> */}
-              </div>
-              {/* <div className='w-[80px] sm:w-[176px] relative mb-8 sm:mb-0 mr-auto'>
-                <Image
-                  alt='Caleb Benjamin'
-                  height={176}
-                  width={176}
-                  src='/avatar.png'
-                  sizes='30vw'
-                  priority
-                  className='rounded-full filter grayscale profile-bg'
-                />
-              </div> */}
-            </div>
-          </div>
-
-          <div className='flex flex-col items-start justify-center max-w-4xl mx-auto sm:mb-16'>
+          <HeroSection />
+          <SlideSection />
+          {/* <div className='flex flex-col items-start justify-center max-w-4xl mx-auto sm:mb-16'>
             <h3 className='font-bold text-2xl md:text-4xl tracking-tight mb-10 text-black dark:text-white'>
               Featured Projects
             </h3>
@@ -119,13 +72,13 @@ export default function Home() {
                 </svg>
               </>
             </Link>
-          </div>
+          </div> */}
 
-          <div className='flex flex-col items-start justify-center max-w-4xl mx-auto mb-16'>
-            <h3 className='font-bold text-2xl md:text-4xl tracking-tight mt-20 mb-10 mt-10 text-black dark:text-white'>
+          <div className='flex flex-col items-start justify-center px-6 sm:px-16 py-6 sm:py-16 bg-white sm:w-9/12 w-full mx-auto sm:shadow-sm dark:bg-gray-900'>
+            <h3 className='font-bold text-2xl md:text-2xl tracking-tight sm:mt-20 mb-10 text-black dark:text-white'>
               Featured Posts
             </h3>
-            <div className='flex gap-6 flex-col md:flex-row'>
+            <div className='grid gap-6 sm:grid-cols-3 grid-cols-1'>
               <BlogPostCard
                 title='5 reasons why you need to start writing Test-driven development (TDD)'
                 slug='https://calebbenjin.hashnode.dev/5-reasons-why-you-need-to-start-writing-test-driven-development-tdd'
@@ -163,6 +116,9 @@ export default function Home() {
               </>
             </Link>
           </div>
+          {/* <div className="w-6/12 mt-40 border border-2 border-gray-300">
+              <h1>Email Form</h1>
+            </div> */}
         </Layout>
       </Suspense>
     </>
