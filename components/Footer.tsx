@@ -9,7 +9,7 @@ type LinkProps = {
 
 const ExternalLink = ({ href, children }: LinkProps) => (
   <a
-    className="text-gray-500 hover:text-gray-600 transition"
+    className="text-gray-500 hover:text-gray-600 transition dark:text-gray-200"
     target="_blank"
     rel="noopener noreferrer"
     href={href}
@@ -27,24 +27,24 @@ export default function Footer() {
         <div className="flex flex-col space-y-4">
           <Link
             href="/"
-            className="text-gray-500 hover:text-gray-600 transition"
+            className="text-gray-500 hover:text-gray-600 transition dark:text-gray-200"
           >
             Home
           </Link>
           <Link
             href="/about"
-            className="text-gray-500 hover:text-gray-600 transition"
+            className="text-gray-500 hover:text-gray-600 transition dark:text-gray-200"
           >
             About
           </Link>
           <Link
             href="/newsletter"
-            className="text-gray-500 hover:text-gray-600 transition"
+            className="text-gray-500 hover:text-gray-600 transition dark:text-gray-200"
           >
             Newsletter
           </Link>
         </div>
-        <div className="flex flex-col space-y-4">
+        <div className="flex flex-col space-y-4 dark:text-gray-200">
           <ExternalLink href="https://twitter.com/calebbenjin">
             Twitter
           </ExternalLink>
@@ -56,25 +56,25 @@ export default function Footer() {
         <div className="flex flex-col space-y-4 dark:text-white">
           <Link
             href="/notes"
-            className="text-gray-500 hover:text-gray-600 transition"
+            className="text-gray-500 hover:text-gray-600 transition dark:text-gray-200"
           >
             My Notes
           </Link>
           <Link
             href="/projects"
-            className="text-gray-500 hover:text-gray-600 transition"
+            className="text-gray-500 hover:text-gray-600 transition dark:text-gray-200"
           >
             Projects
           </Link>
           <Link
             href="/snippets"
-            className="text-gray-500 hover:text-gray-600 transition"
+            className="text-gray-500 hover:text-gray-600 transition dark:text-gray-200"
           >
             CodeSnippets
           </Link>
           <Link
             href="/tweets"
-            className="text-gray-500 hover:text-gray-600 transition"
+            className="text-gray-500 hover:text-gray-600 transition dark:text-gray-200"
           >
             Tweets
           </Link>

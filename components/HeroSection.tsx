@@ -28,7 +28,7 @@ const HeroSection = () => {
           <h1 className='font-extrabold text-3xl sm:text-5xl tracking-tight mb-1 text-gray-700 dark:text-white'>
             Caleb Benjamin
           </h1>
-          <p className='text-gray-600 sm:text-md text-md dark:text-gray-400 mt-4 mb-6 sm:w-9/12 w-full'>
+          <p className='text-gray-600 sm:text-md text-md dark:text-gray-200 mt-4 mb-6 sm:w-9/12 w-full'>
             I&apos;m Caleb Benjamin, a software developer and entreprenur based
             in Lagos Nigeria. I am a Frontend Engineer at{' '}
             <Link
@@ -43,15 +43,15 @@ const HeroSection = () => {
               stutern.com
             </Link>
           </p>
-          <div className='flex items-center mt-2 mb-8 text-gray-500'>
+          <div className='flex items-center mt-2 mb-8 text-gray-500 dark:text-gray-200'>
             <Link href='https://twitter.com/calebbenjin'>
-              <BsTwitter className='mr-6 text-xl' />
+              <BsTwitter className='mr-6 text-2xl dark:text-gray-200' />
             </Link>
             <Link href='https://www.linkedin.com/in/calebbenjin'>
-              <BsLinkedin className='mr-6 text-xl' />
+              <BsLinkedin className='mr-6 text-2xl dark:text-gray-200' />
             </Link>
             <Link href='https://github.com/calebbenjin'>
-              <BsGithub className='text-xl' />
+              <BsGithub className='text-2xl dark:text-gray-200' />
             </Link>
           </div>
           <Link
@@ -63,11 +63,11 @@ const HeroSection = () => {
                 textDecoration: `none`,
               }}
               className='flex items-center justify-space-between rounded-md py-3 px-6 sm:px-4'>
-              <BsCalendar3 className='sm:mr-2 mr-2 sm:text-xl text-sm' />
-              <span className='sm:mr-4 mr-2 sm:text-md text-sm'>
+              <BsCalendar3 className='sm:mr-2 mr-2 sm:text-xl text-sm dark:text-gray-200' />
+              <span className='sm:mr-4 mr-2 sm:text-md text-sm dark:text-gray-200'>
                 Schedule a call
               </span>
-              <BsBoxArrowInUpRight className='text-sm' />
+              <BsBoxArrowInUpRight className='text-sm dark:text-gray-200' />
             </button>
           </Link>
         </div>

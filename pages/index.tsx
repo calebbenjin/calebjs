@@ -33,7 +33,8 @@ export default function Home() {
       <Suspense fallback={null}>
         <Layout>
           <HeroSection />
-          <div className='flex flex-col items-start justify-center px-6 sm:px-16 bg-white sm:w-9/12 w-full mx-auto sm:shadow-sm dark:bg-gray-900'>
+          <SlideSection />
+          <div className='flex flex-col items-start pt-20 justify-center px-6 sm:px-16 bg-white sm:w-9/12 w-full mx-auto sm:shadow-sm dark:bg-gray-900'>
             <h3 className='font-bold text-2xl md:text-4xl tracking-tight mb-5 text-black dark:text-white'>
               Projects
             </h3>
@@ -118,7 +119,6 @@ export default function Home() {
               </>
             </Link>
           </div>
-          <SlideSection />
         </Layout>
       </Suspense>
     </>

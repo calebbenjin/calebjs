@@ -11,15 +11,6 @@ export const featuredProjects = [
     siteLink: "https://www.easeplan.io"
   },
   {
-    id: "02",
-    title: "MeetupRadar",
-    description: "MeetupRadar is an open-source web app that allows users to see the location of tech meetups in their area. Using a geocoding API",
-    coverImg: "/procover5.png",
-    gradient: 'from-[#D8B4FE] to-[#818CF8]',
-    githubLink: "",
-    siteLink: "https://meetupradar.vercel.app"
-  },
-  {
     id: "03",
     title: "CapitalRollup",
     description: "With just one click, discover and invest into some of the best performing crypto indexes.",
@@ -28,6 +19,16 @@ export const featuredProjects = [
     githubLink: "",
     siteLink: "https://capitalrollup.com"
   },
+  {
+    id: "02",
+    title: "MeetupRadar",
+    description: "MeetupRadar is an open-source web app that allows users to see the location of tech meetups in their area. Using a geocoding API",
+    coverImg: "/procover5.png",
+    gradient: 'from-[#D8B4FE] to-[#818CF8]',
+    githubLink: "",
+    siteLink: "https://meetupradar.vercel.app"
+  },
+  
   // {
   //   id: "04",
   //   title: "FrontendInit",
@@ -37,15 +38,15 @@ export const featuredProjects = [
   //   githubLink: "",
   //   siteLink: "https://frontendinitdev.vercel.app/"
   // },
-  {
-    id: "05",
-    title: "PayForeign",
-    description: "PayForeign helps you transfer money to your family and friends from south Africa to Nigeria. check transaction rate and track payment as it goes.",
-    coverImg: "/procover3.png",
-    gradient: 'from-[#FDE68A] via-[#FCA5A5] to-[#FECACA]',
-    githubLink: "",
-    siteLink: "https://payforeign.com"
-  }
+  // {
+  //   id: "05",
+  //   title: "PayForeign",
+  //   description: "PayForeign helps you transfer money to your family and friends from south Africa to Nigeria. check transaction rate and track payment as it goes.",
+  //   coverImg: "/procover3.png",
+  //   gradient: 'from-[#FDE68A] via-[#FCA5A5] to-[#FECACA]',
+  //   githubLink: "",
+  //   siteLink: "https://payforeign.com"
+  // }
 ]
 
 export const projects = [
