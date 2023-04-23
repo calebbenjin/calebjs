@@ -53,8 +53,8 @@ export default function MobileMenu() {
             className="border-b border-gray-300 dark:border-gray-700 text-gray-900 dark:text-gray-100 text-sm font-semibold"
             style={{ transitionDelay: '150ms' }}
           >
-            <Link href="/" className="flex w-auto pb-4">
-              Home
+            <Link href="/about" className="flex w-auto pb-4">
+              About
             </Link>
           </li>
           {/* <li
@@ -85,8 +85,8 @@ export default function MobileMenu() {
             className="border-b border-gray-300 dark:border-gray-700 text-gray-900 dark:text-gray-100 text-sm font-semibold"
             style={{ transitionDelay: '275ms' }}
           >
-            <Link href="/snippets" className="flex w-auto pb-4">
-              Code Snippets
+            <Link href="/projects" className="flex w-auto pb-4">
+              Projects
             </Link>
           </li>
           {/* <li
@@ -101,7 +101,7 @@ export default function MobileMenu() {
             className="border-b border-gray-300 dark:border-gray-700 text-gray-900 dark:text-gray-100 text-sm font-semibold"
             style={{ transitionDelay: '325ms' }}
           >
-            <Link href="/tweets" className="flex w-auto pb-4">
+            <Link href="/https://twitter.com/calebbenjin" className="flex w-auto pb-4">
               Tweets
             </Link>
           </li>

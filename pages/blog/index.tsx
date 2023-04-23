@@ -58,16 +58,16 @@ export default function BlogPage() {
     <Layout
       title='Blog – Caleb Benjamin'
       description='Thoughts on the software industry, programming, tech, and my personal life.'>
-      <div className='flex flex-col items-start justify-center sm:px-16 sm:pb-16 py-4 bg-white sm:w-9/12 w-full  mx-auto sm:shadow-sm dark:bg-gray-900'>
+      <div className='flex flex-col items-start justify-center sm:px-16 px-10 sm:pb-16 py-4 bg-white sm:w-9/12 w-full  mx-auto sm:shadow-sm dark:bg-gray-900'>
         <div className='relative sm:w-9/12 w-full mx-auto mb-4'>
           <h1 className='mb-4 text-3xl font-bold tracking-tight text-black md:text-5xl dark:text-white'>
             💡Blog
           </h1>
-          <p className='mb-4 text-gray-600 dark:text-gray-400'>
+          {/* <p className='mb-4 text-gray-600 dark:text-gray-400'>
             {`I've been writing online since 2022, mostly about web development and tech careers.
           In total, I've written articles on my blog.
           Use the search below to filter by title.`}
-          </p>
+          </p> */}
           <input
             aria-label='Search articles'
             type='text'

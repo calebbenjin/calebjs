@@ -72,12 +72,12 @@ export default function Footer() {
           >
             CodeSnippets
           </Link>
-          <Link
-            href="/tweets"
+          {/* <Link
+            href="/https://twitter.com/calebbenjin"
             className="text-gray-500 hover:text-gray-600 transition dark:text-gray-200"
           >
             Tweets
-          </Link>
+          </Link> */}
         </div>
       </div>
     </footer>

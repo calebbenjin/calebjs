@@ -15,7 +15,7 @@ export default function About() {
   return (
     <Container title='About – Caleb Benjamin'>
       <div className='flex flex-col justify-center items-center px-10 bg-white sm:w-9/12 w-full dark:prose-dark mx-auto pb-16 dark:bg-gray-900'>
-        <div className='mb-8 prose leading-6  dark:text-white'>
+        <div className='mb-8 prose leading-6 dark:text-white'>
           <h1 className='font-bold text-3xl md:text-5xl tracking-tight text-black dark:text-white'>
             About Me
           </h1>
