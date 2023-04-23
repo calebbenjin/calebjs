@@ -1,11 +1,11 @@
-/** @type {import('next').NextConfig} */
+const {withContentlayer} = require('next-contentlayer')
 
-module.exports = {
+module.exports = withContentlayer({
   reactStrictMode: true,
 
   experimental: {
     fontLoaders: [
-      { loader: '@next/font/google', options: { subsets: ['latin'] } }
-    ]
+      { loader: '@next/font/google', options: { subsets: ['latin'] } },
+    ],
   },
-}
+})

@@ -7,18 +7,13 @@ export default function ProjectsPage() {
     <Layout
       title='My Projects – Caleb Benjamin'
       description='Side Projects, Freelance Projects, Company projects from small to industry standard'>
-      <div className='flex flex-col items-start justify-center max-w-3xl mx-auto mb-16'>
+      <div className='flex flex-col items-start justify-center py-10 flex flex-col items-start justify-center px-6 sm:px-16 bg-white sm:w-9/12 w-full mx-auto sm:shadow-sm dark:bg-gray-900'>
         <h1 className='mb-4 text-3xl font-bold tracking-tight text-black md:text-5xl dark:text-white'>
           🛠Projects
         </h1>
         <p className='mb-4 text-gray-600 dark:text-gray-400'>
-          {`I've been writing online since 2014, mostly about web development and tech careers.
-          In total, I've written articles on my blog.
-          Use the search below to filter by title.`}
+          Things I build with a computer.
         </p>
-      </div>
-
-      <div className='flex flex-col items-start justify-center max-w-5xl mx-auto mb-16'>
         <div className='grid sm:grid-cols-3 lg:grid-cols-2 grid-cols-1 gap-4'>
           {featuredProjects.map((project) => (
             <ProjectCard

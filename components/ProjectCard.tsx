@@ -51,8 +51,8 @@ export default function ProjectCard({ title, description, slug, gradient, src, s
           </p>
         </div>
         <div className="grid grid-cols-2 gap-6 text-gray-800 dark:text-gray-200">
-          <Link href={siteUrl} className="dark:bg-gray-800 bg-gray-200 text-center sm:text-sm p-1 border-solid">View site</Link>
-          <Link href={codeUrl} className="dark:bg-gray-800 bg-gray-200 text-center sm:text-sm p-1">Code base</Link>
+          <Link href={siteUrl} className="dark:bg-gray-800 bg-gray-200 rounded-lg text-center sm:text-sm p-2 border-solid">View site</Link>
+          <Link href={codeUrl} className="dark:bg-gray-800 bg-gray-200 rounded-lg text-center sm:text-sm p-2">Code base</Link>
         </div>
       </div>
     </div>

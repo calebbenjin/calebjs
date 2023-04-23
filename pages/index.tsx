@@ -33,12 +33,14 @@ export default function Home() {
       <Suspense fallback={null}>
         <Layout>
           <HeroSection />
-          <SlideSection />
-          {/* <div className='flex flex-col items-start justify-center max-w-4xl mx-auto sm:mb-16'>
-            <h3 className='font-bold text-2xl md:text-4xl tracking-tight mb-10 text-black dark:text-white'>
-              Featured Projects
+          <div className='flex flex-col items-start justify-center px-6 sm:px-16 bg-white sm:w-9/12 w-full mx-auto sm:shadow-sm dark:bg-gray-900'>
+            <h3 className='font-bold text-2xl md:text-4xl tracking-tight mb-5 text-black dark:text-white'>
+              Projects
             </h3>
-            <div className='grid sm:grid-cols-3 lg:grid-cols-2 grid-cols-1 gap-4'>
+            <p className='mb-10 text-black dark:text-white'>
+              Things I created with my computer.
+            </p>
+            <div className='grid sm:grid-cols-3 lg:grid-cols-2 grid-cols-1 gap-8'>
               {featuredProjects.map((project) => (
                 <ProjectCard
                   key={project?.id}
@@ -72,7 +74,7 @@ export default function Home() {
                 </svg>
               </>
             </Link>
-          </div> */}
+          </div>
 
           <div className='flex flex-col items-start justify-center px-6 sm:px-16 py-6 sm:py-16 bg-white sm:w-9/12 w-full mx-auto sm:shadow-sm dark:bg-gray-900'>
             <h3 className='font-bold text-2xl md:text-2xl tracking-tight sm:mt-20 mb-10 text-black dark:text-white'>
@@ -116,9 +118,7 @@ export default function Home() {
               </>
             </Link>
           </div>
-          {/* <div className="w-6/12 mt-40 border border-2 border-gray-300">
-              <h1>Email Form</h1>
-            </div> */}
+          <SlideSection />
         </Layout>
       </Suspense>
     </>

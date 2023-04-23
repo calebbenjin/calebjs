@@ -28,15 +28,15 @@ export const featuredProjects = [
     githubLink: "",
     siteLink: "https://capitalrollup.com"
   },
-  {
-    id: "04",
-    title: "FrontendInit",
-    description: "A Community to guide, mentor, and support young Africans in their Frontend journey by providing relevant resources, opportunities, roadmaps, virtual and real life events",
-    coverImg: "/procover4.png",
-    gradient: 'from-[#D8B4FE] to-[#818CF8]',
-    githubLink: "",
-    siteLink: "https://frontendinitdev.vercel.app/"
-  },
+  // {
+  //   id: "04",
+  //   title: "FrontendInit",
+  //   description: "A Community to guide, mentor, and support young Africans in their Frontend journey by providing relevant resources, opportunities, roadmaps, virtual and real life events",
+  //   coverImg: "/procover4.png",
+  //   gradient: 'from-[#D8B4FE] to-[#818CF8]',
+  //   githubLink: "",
+  //   siteLink: "https://frontendinitdev.vercel.app/"
+  // },
   {
     id: "05",
     title: "PayForeign",

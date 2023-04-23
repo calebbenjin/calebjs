@@ -14,11 +14,22 @@ import {
 export default function About() {
   return (
     <Container title='About – Caleb Benjamin'>
-      <div className='flex flex-col justify-center items-start max-w-4xl mx-auto mb-16 w-full'>
-        <h1 className='font-bold text-3xl md:text-5xl tracking-tight mb-4 text-black dark:text-white'>
-          About Me
-        </h1>
-        <div className='mb-8 prose dark:prose-dark leading-6'>
+      <div className='flex flex-col justify-center items-center px-10 bg-white sm:w-9/12 w-full dark:prose-dark mx-auto pb-16 dark:bg-gray-900'>
+        <div className='mb-8 prose leading-6  dark:text-white'>
+          <h1 className='font-bold text-3xl md:text-5xl tracking-tight text-black dark:text-white'>
+            About Me
+          </h1>
+          <div className='relative sm:mb-8 mb-4 sm:mb-10 mr-auto'>
+            <Image
+              alt='Caleb Benjamin'
+              height={64}
+              width={70}
+              src='/avatar.png'
+              sizes='30vw'
+              priority
+              className='rounded-full filter grayscale profile-bg'
+            />
+          </div>
           <p>
             Hey I&apos;m Caleb. Most folks know me as <b>calebbenjin</b> online.
           </p>
@@ -43,8 +54,8 @@ export default function About() {
           </p>
 
           <p>
-            Outside of EasePlan, Mentor at Stutern and run a frontend developer
-            community called{' '}
+            Outside of EasePlan, I Mentor at Stutern and run a frontend
+            developer community called{' '}
             <Link href='/'>
               <b>FrontendInit</b>
             </Link>{' '}
@@ -52,7 +63,9 @@ export default function About() {
           </p>
           {/* <hr /> */}
           <div className='flex mt-10'>
-            <Link href='https://github.com/calebbenjin' className='text-gray-600 no-underline mr-1 sm:mr-4'>
+            <Link
+              href='https://github.com/calebbenjin'
+              className='text-gray-600 no-underline mr-1 sm:mr-4'>
               <button
                 style={{ border: ` solid 1px #ccc`, textDecoration: `none` }}
                 className='flex items-center justify-space-between rounded-md py-2 px-2 sm:px-4'>
@@ -61,7 +74,9 @@ export default function About() {
                 <BsBoxArrowInUpRight className='text-sm' />
               </button>
             </Link>
-            <Link href='https://twitter.com/calebbenjin' className='text-gray-600 no-underline mr-1 sm:mr-4'>
+            <Link
+              href='https://twitter.com/calebbenjin'
+              className='text-gray-600 no-underline mr-1 sm:mr-4'>
               <button
                 style={{ border: ` solid 1px #ccc`, textDecoration: `none` }}
                 className='flex items-center justify-space-between rounded-md py-2 px-2 sm:px-4'>
@@ -70,12 +85,16 @@ export default function About() {
                 <BsBoxArrowInUpRight className='text-sm' />
               </button>
             </Link>
-            <Link href='https://www.linkedin.com/in/calebbenjin' className='text-gray-600 no-underline'>
+            <Link
+              href='https://www.linkedin.com/in/calebbenjin'
+              className='text-gray-600 no-underline'>
               <button
                 style={{ border: ` solid 1px #ccc`, textDecoration: `none` }}
                 className='flex items-center justify-space-between rounded-md py-2 sm:px-4 px-2'>
                 <BsLinkedin className='sm:mr-4 mr-2 sm:text-lg text-sm' />
-                <span className='sm:mr-6 mr-2 sm:text-lg text-sm'>LinkedIn</span>
+                <span className='sm:mr-6 mr-2 sm:text-lg text-sm'>
+                  LinkedIn
+                </span>
                 <BsBoxArrowInUpRight className='text-sm' />
               </button>
             </Link>
