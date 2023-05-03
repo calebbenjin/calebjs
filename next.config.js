@@ -1,6 +1,4 @@
-const {withContentlayer} = require('next-contentlayer')
-
-module.exports = withContentlayer({
+const nextConfig = {
   reactStrictMode: true,
 
   experimental: {
@@ -8,4 +6,6 @@ module.exports = withContentlayer({
       { loader: '@next/font/google', options: { subsets: ['latin'] } },
     ],
   },
-})
+}
+
+module.exports = nextConfig

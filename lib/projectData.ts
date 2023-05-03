@@ -11,7 +11,7 @@ export const featuredProjects = [
     siteLink: "https://www.easeplan.io"
   },
   {
-    id: "03",
+    id: "02",
     title: "CapitalRollup",
     description: "With just one click, discover and invest into some of the best performing crypto indexes.",
     coverImg: "/procover2.png",
@@ -20,70 +20,42 @@ export const featuredProjects = [
     siteLink: "https://capitalrollup.com"
   },
   {
-    id: "02",
-    title: "MeetupRadar",
-    description: "MeetupRadar is an open-source web app that allows users to see the location of tech meetups in their area. Using a geocoding API",
-    coverImg: "/procover5.png",
+    id: "03",
+    title: "AI Shirt Generator",
+    description: "This is an AI T-Shirt 3D generator build with React + Vite, threeJS, Drei, Valtio, Framer-motion, react-color, tailwindCSS",
+    coverImg: "/procover6.png",
     gradient: 'from-[#D8B4FE] to-[#818CF8]',
-    githubLink: "",
-    siteLink: "https://meetupradar.vercel.app"
-  },
-  
-  // {
-  //   id: "04",
-  //   title: "FrontendInit",
-  //   description: "A Community to guide, mentor, and support young Africans in their Frontend journey by providing relevant resources, opportunities, roadmaps, virtual and real life events",
-  //   coverImg: "/procover4.png",
-  //   gradient: 'from-[#D8B4FE] to-[#818CF8]',
-  //   githubLink: "",
-  //   siteLink: "https://frontendinitdev.vercel.app/"
-  // },
-  // {
-  //   id: "05",
-  //   title: "PayForeign",
-  //   description: "PayForeign helps you transfer money to your family and friends from south Africa to Nigeria. check transaction rate and track payment as it goes.",
-  //   coverImg: "/procover3.png",
-  //   gradient: 'from-[#FDE68A] via-[#FCA5A5] to-[#FECACA]',
-  //   githubLink: "",
-  //   siteLink: "https://payforeign.com"
-  // }
+    githubLink: "https://github.com/calebbenjin/ai-shirt-generator",
+    siteLink: "https://ai-shirt-generator.vercel.app/"
+  }
 ]
 
 export const projects = [
   {
     id: "01",
     title: "Easeplan",
-    description: "",
+    description: "An event planning platform that connects event owners to event planners and vendors could be viable in countries in Africa.",
     coverImg: "/procover1.png",
     gradient: 'from-[#6EE7B7] via-[#3B82F6] to-[#9333EA]',
     githubLink: "",
-    siteLink: ""
+    siteLink: "https://www.easeplan.io"
   },
   {
     id: "02",
-    title: "MeetupRadar",
-    description: "MeetupRadar",
+    title: "CapitalRollup",
+    description: "With just one click, discover and invest into some of the best performing crypto indexes.",
     coverImg: "/procover2.png",
-    gradient: 'from-[#D8B4FE] to-[#818CF8]',
+    gradient: 'from-[#FDE68A] via-[#FCA5A5] to-[#FECACA]',
     githubLink: "",
-    siteLink: ""
+    siteLink: "https://capitalrollup.com"
   },
   {
     id: "03",
-    title: "CapitalRollup",
-    description: "",
-    coverImg: "/procover1.png",
-    gradient: 'from-[#FDE68A] via-[#FCA5A5] to-[#FECACA]',
-    githubLink: "",
-    siteLink: ""
-  },
-  {
-    id: "04",
-    title: "CapitalRollup",
-    description: "",
-    coverImg: "/procover1.png",
-    gradient: 'from-[#FDE68A] via-[#FCA5A5] to-[#FECACA]',
-    githubLink: "",
-    siteLink: ""
+    title: "AI Shirt Generator",
+    description: "This is an AI T-Shirt 3D generator build with React + Vite, threeJS, Drei, Valtio, Framer-motion, react-color, tailwindCSS",
+    coverImg: "/procover6.png",
+    gradient: 'from-[#D8B4FE] to-[#818CF8]',
+    githubLink: "https://github.com/calebbenjin/ai-shirt-generator",
+    siteLink: "https://ai-shirt-generator.vercel.app/"
   },
 ]
