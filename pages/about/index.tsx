@@ -45,12 +45,10 @@ export default function About() {
             helping other developers to move from 0 to 1. This combination of
             interests is what ultimately led me to my current role.
           </p>
-
           <p>
-            I love building for the web. From something as simple as a single
-            HTML file – all the way to large Next.js applications. The web is
-            incredible. Anyone can become a developer, writer, or creator – and
-            no one has to ask for permission. You can just build.
+            In my spare time I write technical articles and build SaaS projects,
+            Currently I am building a SaaS app for API prompts, still under
+            development.
           </p>
 
           <p>

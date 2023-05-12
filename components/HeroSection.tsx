@@ -29,19 +29,34 @@ const HeroSection = () => {
             Caleb Benjamin
           </h1>
           <p className='text-gray-600 sm:text-md text-md dark:text-gray-200 mt-4 mb-6 sm:w-9/12 w-full'>
-            I&apos;m Caleb Benjamin, a software developer and entreprenur based
-            in Lagos Nigeria. I am a Frontend Engineer at{' '}
+            I&apos;m Caleb Benjamin, a Frontend Software Developer based in
+            Lagos Nigeria. I am the Frontend Engineer incharge of{' '}
             <Link
               href='https://www.easeplan.io'
               className='underline decoration-1'>
               easeplan.io
-            </Link>{' '}
-            and mentoring over 50+ junior frontend developers at{' '}
+            </Link>
+            . where I helped built an event planning platform that connects
+            event owners to event planners and vendors, with over 500 users
+            daily. And I am mentoring over 25+ junior frontend developers at{' '}
             <Link
               href='https://www.stutern.com'
               className='underline decoration-1'>
               stutern.com
             </Link>
+            . {` `}
+            In my spare time I love writing technical articles and building SaaS
+            projects.
+          </p>
+          <p className='mb-6'>
+            <b>Technical Skills:</b> Typescript, Reactjs, Nextjs, Redux, Sass,
+            Performance, PWA, Code Splitting, Webpack, Load Balancing, SSR, SSH,
+            Security, Serverless, Security, CI/CD, Nodejs/Express, Automated
+            Testing.
+          </p>
+          <p className='mb-6'>
+            <b>Soft Skills:</b> Communication, Kindness, Leadership, Excellence,
+            Ownership, Growth Mindset, Decision making.
           </p>
           <div className='flex items-center mt-2 mb-8 text-gray-500 dark:text-gray-200'>
             <Link href='https://twitter.com/calebbenjin'>
