@@ -2,9 +2,7 @@ import React from "react";
 import Image from "next/image";
 import acceptImg from "../public/acceptimg.jpg";
 import practiceImg from "../public/practice.jpg";
-import cretorImg from "../public/creator.png";
 import keybordImg from "../public/keyboard.webp";
-import workmood from "../public/keyboard2.jpg";
 import genesisImg from "../public/workmood.jpg";
 import iconImg from "../public/ice.webp";
 

@@ -1,19 +1,27 @@
-import Link from 'next/link';
-import useSWR from 'swr';
-import cn from 'classnames';
+import Link from "next/link";
+import useSWR from "swr";
+import cn from "classnames";
 
-import fetcher from '../lib/fetcher';
+import fetcher from "../lib/fetcher";
 
 type Views = {
   total: number;
 };
 type BlogProps = {
-  title: string, 
-  slug: string,
-  gradient: string; 
+  title: string;
+  slug: string;
+  gradient: string;
+  date: string;
+  des: string;
 };
 
-export default function BlogPostCard({ title, slug, gradient }: BlogProps) {
+export default function BlogPostCard({
+  title,
+  slug,
+  gradient,
+  date,
+  des
+}: BlogProps) {
   const { data } = useSWR<Views>(`/api/views/${slug}`, fetcher);
   const views = data?.total;
 
@@ -21,18 +29,17 @@ export default function BlogPostCard({ title, slug, gradient }: BlogProps) {
     <Link
       href={slug}
       className={cn(
-        'transform hover:scale-[1.01] transition-all',
-        'rounded-xl w-full bg-gradient-to-r p-1',
+        "transform hover:scale-[1.01] transition-all",
+        "rounded-xl w-full bg-gradient-to-r p-1",
         gradient
-      )}
-    >
+      )}>
       <div className="flex flex-col justify-between w-full h-full bg-white dark:bg-gray-900 rounded-lg p-4">
         <div className="flex flex-col md:flex-row justify-between">
           <h4 className="sm:text-md font-semibold w-full text-gray-900 dark:text-gray-100 tracking-tight">
             {title}
           </h4>
         </div>
-        <p className="my-4 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, reprehenderit?</p>
+        <p className="my-4 text-sm">{des}</p>
         <div className="flex items-center text-gray-800 dark:text-gray-200 capsize">
           {/* <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -54,9 +61,9 @@ export default function BlogPostCard({ title, slug, gradient }: BlogProps) {
               d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
             />
           </svg> */}
-          <p className="text-sm">1 April 2023</p>
+          <p className="text-sm">{date}</p>
           <span className="ml-2 align-baseline capsize">
-            {views ? new Number(views).toLocaleString() : '–––'}
+            {views ? new Number(views).toLocaleString() : "–––"}
           </span>
         </div>
       </div>
