@@ -31,7 +31,7 @@ export default function About() {
             />
           </div>
           <p>
-            Hey I&apos;m Caleb. Most folks know me as <b>The Serial Founder</b>{" "}
+            Hey I&apos;m Caleb. Most folks know me as <b>@Calebbenjin</b>{" "}
             online.
           </p>
           <p>
