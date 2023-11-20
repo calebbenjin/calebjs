@@ -36,8 +36,10 @@ export default function About() {
           </p>
           <p>
             I&apos;m currently the Co-founder/Lead Frontend Engineer at{" "}
-            <b>Easeplan.io</b> Where I lead our frontend team. I focus on
-            security, optimazation and improving the user expirence of easeplan.
+            <b>Easeplan.io</b> and also the senior frontend lead at{" "}
+            <b>Fiatplug</b> Where I lead the frontend team. I focus on security,
+            optimazation and improving the user expirence and dashboard of easeplan and
+            fiatplug.
           </p>
           <hr />
           <p>
@@ -49,7 +51,7 @@ export default function About() {
           </p>
           <p>
             In my spare time I write technical articles and build SaaS projects,
-            Currently I am building a SaaS app for API prompts, still under
+            Currently I am building a SaaS app for Sport Betting, still under
             development.
           </p>
 
