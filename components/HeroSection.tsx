@@ -70,10 +70,10 @@ const HeroSection = () => {
               <BsGithub className="text-2xl dark:text-gray-200" />
             </Link>
           </div>
-          <div className="flex items-center space-x-6">
+          <div className="flex items-center sm:space-x-6 sm:flex-row flex-col space-y-4">
             <Link
               href="https://calendly.com/calebbenjin/30minwithcaleb"
-              className="text-gray-600 no-underline mr-1 sm:mr-4">
+              className="text-gray-600 no-underline mr-1 sm:mr-4 sm:w-auto w-full">
               <button
                 style={{
                   border: ` solid 1px #ccc`,
@@ -90,18 +90,18 @@ const HeroSection = () => {
             <Link
               href="https://wa.link/cayfcl"
               target="_blank"
-              className="text-gray-600 no-underline mr-1 sm:mr-4">
+              className="text-gray-600 no-underline mr-1 sm:mr-4 sm:w-auto w-full">
               <button
                 style={{
                   border: ` solid 1px #ccc`,
                   textDecoration: `none`,
                 }}
-                className="flex items-center justify-space-between rounded-md py-3 px-6 sm:px-4">
-                <FaWhatsapp className="sm:mr-2 mr-2 sm:text-xl text-sm dark:text-gray-200" />
+                className="flex items-center sm:justify-start justify-between rounded-md py-3 px-6 sm:px-4">
+                <FaWhatsapp className="sm:mr-2 mr-2 sm:text-xl text-lg dark:text-gray-200" />
                 <span className="sm:mr-4 mr-2 sm:text-md text-sm dark:text-gray-200">
                   Let&apos;s chat
                 </span>
-                <BsBoxArrowInUpRight className="text-sm dark:text-gray-200" />
+                <BsBoxArrowInUpRight className="text-lg dark:text-gray-200" />
               </button>
             </Link>
           </div>

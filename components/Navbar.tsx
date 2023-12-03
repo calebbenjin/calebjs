@@ -18,7 +18,7 @@ const Navbar = () => {
           Skip to content
         </a>
         <Link href='/'>
-          <h2 className='font-bold text-sm'>@Calebbenjin</h2>
+          <h2 className='font-bold text-sm'>@FrontendHeavy.xyz</h2>
         </Link>
         <div className='hidden sm:inline shadow-md p-2 rounded-full border border-1 border-gray-500'>
           {/* <NavItem href='/' text='Home' /> */}
