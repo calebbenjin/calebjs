@@ -21,14 +21,14 @@ const Navbar = () => {
           <h2 className='font-bold text-sm'>@FrontendHeavy.xyz</h2>
         </Link>
         <div className='hidden sm:inline shadow-md p-2 rounded-full border border-1 border-gray-500'>
-          {/* <NavItem href='/' text='Home' /> */}
+          <NavItem href='/' text='Home' />
           {/* <NavItem href="/guestbook" text="Guestbook" />
             <NavItem href="/dashboard" text="Dashboard" /> */}
-          <NavItem href='/about' text='About' />
+          <NavItem href='/my-journey' text='My journey' />
           <NavItem href='/blog' text='Blog' />
-          {/* <NavItem href='/snippets' text='CodeSnippets' /> */}
+          <NavItem href='/snippets' text='Code Snippets' />
           {/* <NavItem href='/notes' text='My Notes' /> */}
-          <NavItem href='/projects' text='Projects' />
+          <NavItem href='/projects' text='Works' />
         </div>
         <button
           aria-label='Toggle Dark Mode'

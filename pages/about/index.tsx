@@ -19,7 +19,7 @@ export default function About() {
           <h1 className="font-bold text-3xl md:text-5xl tracking-tight text-black dark:text-white">
             About Me
           </h1>
-          <div className="relative sm:mb-8 mb-4 sm:mb-10 mr-auto">
+          <div className="relative mb-4 sm:mb-10 mr-auto">
             <Image
               alt="Caleb Benjamin"
               height={64}
@@ -31,15 +31,18 @@ export default function About() {
             />
           </div>
           <p>
-            Hey I&apos;m Caleb. Most folks know me as <b>@Calebbenjin</b>{" "}
+            Hey I&apos;m Caleb. Most folks know me as{" "}
+            <Link href="">
+              <b>@FrontendHeavy</b>
+            </Link>{" "}
             online.
           </p>
           <p>
             I&apos;m currently the Co-founder/Lead Frontend Engineer at{" "}
             <b>Easeplan.io</b> and also the senior frontend lead at{" "}
             <b>Fiatplug</b> Where I lead the frontend team. I focus on security,
-            optimazation and improving the user expirence and dashboard of easeplan and
-            fiatplug.
+            optimazation and improving the user expirence and dashboard of
+            easeplan and fiatplug.
           </p>
           <hr />
           <p>
@@ -77,7 +80,7 @@ export default function About() {
               </button>
             </Link>
             <Link
-              href="https://twitter.com/calebbenjin"
+              href="https://twitter.com/FrontendHeavy"
               className="text-gray-600 no-underline mr-1 sm:mr-4">
               <button
                 style={{ border: ` solid 1px #ccc`, textDecoration: `none` }}

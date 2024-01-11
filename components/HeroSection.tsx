@@ -15,39 +15,33 @@ const HeroSection = () => {
     <div className="flex flex-col justify-center items-start border-gray-200 dark:border-gray-700 px-6 sm:px-16 sm:pb-16 py-4 bg-white sm:w-9/12 w-full  mx-auto sm:shadow-sm dark:bg-gray-900">
       <div className="flex flex-col-reverse sm:mt-10 sm:flex-row items-start">
         <div className="flex flex-col pr-8">
-          <div className="relative sm:mb-8 mb-4 sm:mb-10 mr-auto">
+          <div className="relative mb-4 sm:mb-10 mr-auto">
             <Image
               alt="Caleb Benjamin"
-              height={64}
-              width={70}
-              src="/avatar.png"
+              height={100}
+              width={100}
+              src="/caleb-image.jpeg"
               sizes="30vw"
               priority
               className="rounded-full filter grayscale profile-bg"
             />
           </div>
-          <h1 className="font-extrabold text-3xl sm:text-5xl tracking-tight mb-1 text-gray-700 dark:text-white">
-            Caleb Benjamin
+          <h1 className="font-extrabold text-3xl sm:text-3xl tracking-tight mb-1 text-gray-700 dark:text-white">
+            hey, I&apos;m Caleb 👋
           </h1>
           <p className="text-gray-600 sm:text-md text-md dark:text-gray-200 mt-4 mb-6 sm:w-9/12 w-full">
-            I&apos;m Caleb Benjamin, a Frontend Software Developer based in
-            Lagos Nigeria. I am the Co-founder/Frontend Engineer of{" "}
+            I&apos;m a frontend developer, optimist, and indie hacker that based
+            in Lagos Nigeria. I currently work as a Lead frontend developer at{" "}
             <Link
-              href="https://www.easeplan.io"
-              className="underline decoration-1">
-              easeplan.io
-            </Link>
-            . where we built an event planning platform that connects event
-            owners to event planners and vendors, with over 500 users daily. And
-            I am mentoring over 25+ junior frontend developers at{" "}
-            <Link
-              href="https://www.stutern.com"
-              className="underline decoration-1">
-              stutern.com
-            </Link>
-            . {` `}
+              href="https://www.eachblock.xyz"
+              className=" font-bold py-1 px-2 bg-zinc-800 text-white text-sm rounded-sm">
+              Eachblock
+            </Link>{" "}
             In my spare time I love writing technical articles and building SaaS
-            projects.
+            products.{" "}
+            <Link href="/my-journey" className="underline decoration-1">
+              Here&lsquo;s a summary of my work so far.
+            </Link>
           </p>
           <p className="mb-6">
             <b>Technical Skills:</b> Typescript, Reactjs, Nextjs, Redux, Sass,

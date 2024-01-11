@@ -1,6 +1,6 @@
 import Layout from '../../components/Layout'
 import ProjectCard from '../../components/ProjectCard'
-import { featuredProjects } from '../../lib/projectData'
+import { projects } from '../../lib/projectData'
 
 export default function ProjectsPage() {
   return (
@@ -15,7 +15,7 @@ export default function ProjectsPage() {
           Things I build with a computer.
         </p>
         <div className='grid sm:grid-cols-3 lg:grid-cols-2 grid-cols-1 gap-4'>
-          {featuredProjects.map((project) => (
+          {projects.map((project) => (
             <ProjectCard
               key={project?.id}
               title={project?.title}
