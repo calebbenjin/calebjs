@@ -209,17 +209,32 @@ export default function MyJourney() {
             <p className="my-0 text-gray-300 text-sm">
               Lead Frontend Engineer, 2019 - 2021
             </p>
-            <p>
-              On the frontend, I led our move from a custom webpack and React
-              configuration to Next.js and the latest React patterns, handling
-              from the web app down to admin dasboard.
-            </p>
             <ul>
               <p>
                 Throughout my time here, I was able to work on some hard
                 problems:
               </p>
-              <li></li>
+              <li>
+                Design and build reusable code and libraries for future use,
+                increasing development efficiency by 30%.
+              </li>
+              <li>
+                Worked with product managers and designers to gather
+                requirements and translate them into code
+              </li>
+              <li>
+                Optimized the website&apos;s performance by implementing lazy
+                loading and code splitting techniques, resulting in faster page
+                load times and improved user engagement
+              </li>
+              <li>
+                Translating designs and wireframes into quality code that
+                maintains the highest standards.
+              </li>
+              <li>
+                Optimize applications for maximum speed and scalability,
+                resulting in a 35% increase in overall performance.
+              </li>
             </ul>
           </div>
           <hr />
@@ -238,7 +253,20 @@ export default function MyJourney() {
                 Throughout my time here, I was able to work on some hard
                 problems:
               </p>
-              <li></li>
+              <li>
+                Collaborate with cross-functional teams to design, develop, and
+                maintain scalable and solid frontend codebase for a leading
+                EdTech company in Lagos, Nigeria.
+              </li>
+              <li>
+                I mentored students in redesigning the student dashboard to help
+                student track their progress and take courses.
+              </li>
+              <li>
+                I trained and mentored 24 junior frontend engineers that ranked
+                in the company&apos;s top 10 fastest-growing talent and
+                onboarded mentees to business projects 20% faster than others.
+              </li>
             </ul>
           </div>
           <hr />

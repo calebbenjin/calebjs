@@ -95,4 +95,13 @@ export const projects = [
     githubLink: "",
     siteLink: "https://capitalrollup.com",
   },
+  {
+    id: "06",
+    title: "SUREODDS",
+    description: "A sports betting bookmaker market place.",
+    coverImg: "/sureodds.png",
+    gradient: "from-[#D8B4FE] to-[#818CF8]",
+    githubLink: "",
+    siteLink: "https://capitalrollup.com",
+  },
 ];
