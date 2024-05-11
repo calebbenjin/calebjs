@@ -24,6 +24,7 @@ const Navbar = () => {
         <div className="hidden sm:inline shadow-md p-2 rounded-full border border-1 border-gray-500">
           <NavItem href="/" text="Portfolio" />
           <NavItem href="/projects" text="My works" />
+          <NavItem href="/about-caleb" text="About me" />
           <NavItem href="/my-journey" text="My journey" />
           <NavItem href="/snippets" text="Code Snippets" />
           <NavItem href="/blog" text="Blog" />

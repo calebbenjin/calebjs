@@ -1,5 +1,4 @@
 import { Suspense } from "react";
-import Image from "next/image";
 import Link from "next/link";
 import Head from "next/head";
 import { Inter } from "@next/font/google";
@@ -26,7 +25,6 @@ export default function Home() {
       </Head>
       <Suspense fallback={null}>
         <Layout>
-          {/* <HeroSection /> */}
           <Hero />
           <SlideSection />
           <div className="flex flex-col items-startz lg:pt-40 pt-20 justify-center px-6 sm:px-16 bg-white sm:w-11/12 w-full mx-auto sm:shadow-sm dark:bg-gray-900">
