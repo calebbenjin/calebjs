@@ -17,7 +17,7 @@ const NavItem = ({ href, text }: NavProps) => {
       href={href}
       className={cn(
         isActive
-          ? 'text-yellow-400 dark:text-gray-200'
+          ? 'text-red-600'
           : 'font-semibold text-sm text-gray-600 dark:text-gray-400',
         'hidden md:inline-block font-semibold p-1 sm:px-3 sm:mx-2 sm:py-2 rounded-lg hover:font-bold dark:hover:bg-gray-800 transition-all'
       )}>

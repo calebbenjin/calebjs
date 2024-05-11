@@ -7,14 +7,8 @@ import Layout from "../components/Layout";
 import BlogPostCard from "../components/BlogPostCard";
 import ProjectCard from "../components/ProjectCard";
 import { featuredProjects } from "../lib/projectData";
-import {
-  BsGithub,
-  BsTwitter,
-  BsCalendar3,
-  BsBoxArrowInUpRight,
-} from "react-icons/bs";
-import HeroSection from "../components/HeroSection";
 import SlideSection from "../components/SlideSection";
+import Hero from "../components/Hero";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,7 +16,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Create Next App</title>
+        <title>Caleb Benjamin || Frontend Engineer</title>
         <meta
           name="description"
           content="Caleb.js is my portfolio that's built with NextJS-13, TypeScript, Tailwind, Prisma, and Vercel"
@@ -32,16 +26,17 @@ export default function Home() {
       </Head>
       <Suspense fallback={null}>
         <Layout>
-          <HeroSection />
+          {/* <HeroSection /> */}
+          <Hero />
           <SlideSection />
-          <div className="flex flex-col items-start pt-20 justify-center px-6 sm:px-16 bg-white sm:w-9/12 w-full mx-auto sm:shadow-sm dark:bg-gray-900">
-            <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-5 text-black dark:text-white">
-              Projects
+          <div className="flex flex-col items-startz lg:pt-40 pt-20 justify-center px-6 sm:px-16 bg-white sm:w-11/12 w-full mx-auto sm:shadow-sm dark:bg-gray-900">
+            <h3 className="font-bold text-3xl lg:text-4xl tracking-tight mb-5 text-black dark:text-white">
+              🛠 Projects
             </h3>
             <p className="mb-10 text-black dark:text-white">
               Things I created with my computer.
             </p>
-            <div className="grid sm:grid-cols-3 lg:grid-cols-2 grid-cols-1 gap-8">
+            <div className="grid grid-cols-1 gap-8">
               {featuredProjects.map((project) => (
                 <ProjectCard
                   key={project?.id}
@@ -52,6 +47,7 @@ export default function Home() {
                   src={project?.coverImg}
                   codeUrl={project?.githubLink}
                   siteUrl={project?.siteLink}
+                  prodata={project}
                 />
               ))}
             </div>
@@ -77,7 +73,7 @@ export default function Home() {
             </Link>
           </div>
 
-          <div className="flex flex-col items-start justify-center px-6 sm:px-16 py-6 sm:py-16 bg-white sm:w-9/12 w-full mx-auto sm:shadow-sm dark:bg-gray-900">
+          <div className="flex flex-col items-start justify-center px-6 sm:px-16 py-6 sm:py-16 bg-red-400 sm:w-11/12 w-full mx-auto sm:shadow-sm dark:bg-gray-900">
             <h3 className="font-bold text-2xl md:text-2xl tracking-tight sm:mt-20 mb-10 text-black dark:text-white">
               Featured Posts
             </h3>

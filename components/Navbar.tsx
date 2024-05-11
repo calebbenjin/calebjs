@@ -12,28 +12,29 @@ const Navbar = () => {
   useEffect(() => setMounted(true), []);
 
   return (
-    <div className="flex flex-col justify-center bg-white sm:w-9/12 w-full  mx-auto sm:shadow-sm dark:bg-gray-900">
-      <nav className="flex items-center justify-between w-full relative border-gray-200 dark:border-gray-700 mx-auto sm:px-20 px-6 sm:pt-8 pt-4 pb-4 sm:pb-8 text-gray-900 dark:bg-gray-900 dark:text-gray-100">
+    <div className=" lg:pl-40 flex flex-col justify-center bg-white w-full  mx-auto dark:bg-gray-900">
+      <nav className="flex items-center justify-between w-full relative mx-auto pl-6 pr-10 sm:pt-8 pt-6 pb-4 sm:pb-8 text-gray-900 dark:text-gray-100">
         <a href="#skip" className="skip-nav">
           Skip to content
         </a>
-        <Link href="/">
-          <h2 className="font-bold text-sm">FrontendHeavy</h2>
-        </Link>
+        <h1 className="font-extrabold text-xl lg:hidden block">
+          <span className="text-3xl font-extrabold">F</span>
+          <span className="text-red-600">H</span>
+        </h1>
         <div className="hidden sm:inline shadow-md p-2 rounded-full border border-1 border-gray-500">
-          <NavItem href="/" text="Home" />
+          <NavItem href="/" text="Portfolio" />
+          <NavItem href="/projects" text="My works" />
+          <NavItem href="/my-journey" text="My journey" />
+          <NavItem href="/snippets" text="Code Snippets" />
+          <NavItem href="/blog" text="Blog" />
           {/* <NavItem href="/guestbook" text="Guestbook" />
             <NavItem href="/dashboard" text="Dashboard" /> */}
-          <NavItem href="/my-journey" text="My journey" />
-          <NavItem href="/blog" text="Blog" />
-          <NavItem href="/snippets" text="Code Snippets" />
           {/* <NavItem href='/notes' text='My Notes' /> */}
-          <NavItem href="/projects" text="Works" />
         </div>
         <button
           aria-label="Toggle Dark Mode"
           type="button"
-          className="w-10 h-10 bg-white shadow-lg rounded-xl dark:bg-gray-600 flex items-center justify-center  hover:ring-2 ring-gray-300  transition-all"
+          className="z-50 w-10 h-10 bg-white shadow-lg rounded-xl dark:bg-gray-600 flex items-center justify-center  hover:ring-2 ring-gray-300  transition-all"
           onClick={() =>
             setTheme(resolvedTheme === "light" ? "dark" : "light")
           }>
