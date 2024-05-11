@@ -45,12 +45,12 @@ export default function About() {
             <div className="relative mb-4 sm:mb-10 mr-auto">
               <Image
                 alt="Caleb Benjamin"
-                height={64}
-                width={70}
-                src="/avatar.png"
-                sizes="30vw"
+                height={200}
+                width={200}
+                src="/profile-pic.png"
+                sizes="40vw"
                 priority
-                className="rounded-full filter grayscale profile-bg"
+                className="rounded-full profile-bg"
               />
             </div>
             <p>
@@ -75,11 +75,16 @@ export default function About() {
               </p>
             </div>
             <p>
-              I&apos;m currently the Co-founder/Lead Frontend Engineer at{" "}
-              <b>Easeplan.io</b> and also the senior frontend lead at{" "}
-              <b>Fiatplug</b> Where I lead the frontend team. I focus on
-              security, optimazation and improving the user expirence and
-              dashboard of easeplan and fiatplug.
+              I&apos;m currently the Lead Frontend Engineer at{" "}
+              <b>
+                <Link href="https://www.eachblock.xyz">
+                  <b>@Eachblock</b>
+                </Link>
+              </b>
+              Where I lead a team of 3 frontend dev and 2 interns, helping early
+              stage startup lauch their product right on time to their
+              customers. I have succeed to help two startup achieve their goal
+              since I joined Eachblock, and I am committed to help more...
             </p>
             <hr />
             <p>
@@ -90,12 +95,12 @@ export default function About() {
               my current role.
             </p>
             <p>
-              In my spare time I write technical articles and build SaaS
+              In my spare time I create technical vidoes and build SaaS
               projects, Currently I am building a SaaS app for Sport Betting,
               still under development.
             </p>
 
-            <p>
+            {/* <p>
               Outside of EasePlan, I Mentor at Stutern and run a frontend
               developer community called{" "}
               <Link href="/">
@@ -103,7 +108,7 @@ export default function About() {
               </Link>{" "}
               where i provide guidance to frontend developers to move from 0 to
               1.
-            </p>
+            </p> */}
             {/* <hr /> */}
             <div className="flex mt-10">
               <Link

@@ -25,7 +25,7 @@ const Navbar = () => {
           <NavItem href="/" text="Portfolio" />
           <NavItem href="/projects" text="My works" />
           <NavItem href="/about-caleb" text="About me" />
-          <NavItem href="/my-journey" text="My journey" />
+          {/* <NavItem href="/my-journey" text="My journey" /> */}
           <NavItem href="/snippets" text="Code Snippets" />
           <NavItem href="/blog" text="Blog" />
           {/* <NavItem href="/guestbook" text="Guestbook" />
